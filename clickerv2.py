@@ -53,6 +53,7 @@ def make_buttons():
 
         # If its the second button
         elif button_num == 2:
+            window.configure(bg="yellow")
             # Use the button with the number for the global variable
             global button_with_num 
             button_with_num = button
